@@ -1,0 +1,36 @@
+.rightContainer{
+    color: #FCFFFF;
+    width:12rem;
+    height: 8rem;
+    padding-top: 2.5rem;
+    border-radius: 11px;
+}
+.rightContainer .Card {
+    background-color: #1D204B;
+    height: 110%;
+    padding:0 1rem;
+    border-radius: 11px;
+    font-weight: lighter;
+}
+.rightContainer .Card .Header{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.rightContainer .Card .Header span{
+    margin-top: 8px;
+}
+.rightContainer h1{
+    font-size: 2rem;
+}
+.rightContainer h3{
+    color: #BEC1F3;
+    font-size: 0.7rem;
+}
+.rightContainer .Time{
+    margin-top: -1.5rem;
+}
+.rightContainer .Card .Header h2{
+    font-weight: lighter;
+    font-size: 0.9rem;
+}

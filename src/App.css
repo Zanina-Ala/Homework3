@@ -1,0 +1,56 @@
+body{
+  background-color: #07081d;
+}
+.App{
+  display: flex;
+  gap: 2rem;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.leftContainer .Presentation img{
+  width:4rem;
+  height: 4rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.leftContainer{
+  background-color: #1D204B;
+  border-radius: 11px;
+  width: 12rem;
+}
+.leftContainer .Presentation{
+  background-color: #5746EA;
+  padding: 1.2rem;
+  color: white;
+  border-radius: 11px;
+}
+.leftContainer .Presentation .Text{
+  font-weight:lighter;
+}
+.leftContainer .Presentation .Report{
+  color: #8e83ff;
+}
+.leftContainer .Period{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #7173AE;
+  font-size: 0.5rem;
+}
+.leftContainer .Period :hover{
+  color: white;
+  cursor: pointer;
+}
+.leftContainer .Period :active{
+  color:rgb(25, 148, 25);
+  cursor: pointer;
+}
+
+.App .right{
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 40rem;
+}
