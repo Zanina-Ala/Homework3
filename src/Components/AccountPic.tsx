@@ -1,10 +1,10 @@
-import AccountPic from '../Assets/AccountPic.png.jpg'
+import AccountPic from '../Assets/AccountPic.png'
 import './Accountpic.css';
 
 function Picture() {
   return (
    
-    <img src={AccountPic} alt="Profile picture" />
+    <img src={AccountPic} alt="Account picture" />
    
   );
 }
